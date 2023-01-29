@@ -21,9 +21,9 @@ s.source = {
 
 s.framework = "SwiftUI"
 
-s.source_files = "Core/**/*.{swift}"
+s.source_files = "CatalogDetail/**/*.{swift}"
 
-#s.resources = "Core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "CatalogDetail/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 #s.dependency 'Lottie'
 
 s.swift_version = "5.5"
