@@ -62,7 +62,7 @@
 		E57B66462985980700BA0C36 /* CatalogFavorite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CatalogFavorite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57BCDBD29856403000275E4 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		E57BCDBF29856403000275E4 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
-		E5B7DF8D29868B0C00EBCBB2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		E5B7DF8D29868B0C00EBCBB2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5B7DF8F29868B5500EBCBB2 /* CatalogDetail.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CatalogDetail.podspec; sourceTree = "<group>"; };
 		E5B7DF9129868CE600EBCBB2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E5B9193A2978098400433AF7 /* CatalogDetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CatalogDetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,7 +172,6 @@
 				9982324975B407513B80C589 /* Pods-CatalogDetail-CatalogDetailTests.debug.xcconfig */,
 				7DE0126F4A2DB9490C877A1C /* Pods-CatalogDetail-CatalogDetailTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -260,7 +259,7 @@
 			);
 			mainGroup = E5B919302978098400433AF7;
 			packageReferences = (
-				E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios.git" */,
+				E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = E5B9193B2978098400433AF7 /* Products */;
 			projectDirPath = "";
@@ -618,7 +617,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios.git" */ = {
+		E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
 			requirement = {
@@ -631,7 +630,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		E5ED66C82986437200F4CB78 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios.git" */;
+			package = E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
