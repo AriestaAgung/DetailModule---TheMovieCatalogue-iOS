@@ -9,11 +9,14 @@ s.version = "1.0.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Ariesta Agung" => "ariesta.app@gmail.com" }
 s.homepage = "https://github.com/AriestaAgung/DetailModule---TheMovieCatalogue-iOS"
-s.source = { :git => "s.source = { :git => "https://github.com/AriestaAgung/DetailModule---TheMovieCatalogue-iOS.git", :tag => "#{s.version}" }
-.git", :tag => "#{s.version}" }
-s.framework = "Lottie"
-#s.source_files = "CatalogDetail/**/*.{swift}"
+s.source = {
+    :git => "https://github.com/AriestaAgung/DetailModule---TheMovieCatalogue-iOS.git",
+    :tag => "#{s.version}"
+}
+#s.framework = "Lottie"
+s.source_files = "CatalogDetail/**/*.{swift}"
 s.swift_version = "5.5"
+  s.dependency 'lottie-ios'
 
 end
 

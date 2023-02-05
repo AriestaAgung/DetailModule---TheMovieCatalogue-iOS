@@ -220,6 +220,7 @@
 				E5B919402978098500433AF7 /* Sources */,
 				E5B919412978098500433AF7 /* Frameworks */,
 				E5B919422978098500433AF7 /* Resources */,
+				E00AD280FBF3E45F742F2ED5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,7 +260,7 @@
 			);
 			mainGroup = E5B919302978098400433AF7;
 			packageReferences = (
-				E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios.git" */,
 			);
 			productRefGroup = E5B9193B2978098400433AF7 /* Products */;
 			projectDirPath = "";
@@ -334,6 +335,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00AD280FBF3E45F742F2ED5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatalogDetail-CatalogDetailTests/Pods-CatalogDetail-CatalogDetailTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatalogDetail-CatalogDetailTests/Pods-CatalogDetail-CatalogDetailTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatalogDetail-CatalogDetailTests/Pods-CatalogDetail-CatalogDetailTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -617,7 +635,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+		E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
 			requirement = {
@@ -630,7 +648,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		E5ED66C82986437200F4CB78 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			package = E5ED66C72986437200F4CB78 /* XCRemoteSwiftPackageReference "lottie-ios.git" */;
 			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
