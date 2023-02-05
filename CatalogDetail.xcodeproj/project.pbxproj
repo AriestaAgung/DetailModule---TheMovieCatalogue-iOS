@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0AACA6B8F6FC2DD8CE09E712 /* Pods_CatalogDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69AD9596A88D87013AC998DA /* Pods_CatalogDetail.framework */; };
 		55279118C38C7F3326885D71 /* Pods_CatalogDetail_CatalogDetailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3604F131BE5766B71FBD2FA6 /* Pods_CatalogDetail_CatalogDetailTests.framework */; };
+		E528F29A298F663C0072236B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E528F299298F663C0072236B /* LICENSE */; };
 		E57B66222985945500BA0C36 /* CatalogDetail.h in Sources */ = {isa = PBXBuildFile; fileRef = E5B9193D2978098400433AF7 /* CatalogDetail.h */; };
 		E57B66232985945500BA0C36 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57BCDBD29856403000275E4 /* DetailPresenter.swift */; };
 		E57B66242985945500BA0C36 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57BCDBF29856403000275E4 /* MovieDetailView.swift */; };
@@ -18,7 +19,6 @@
 		E57B662F2985953F00BA0C36 /* CatalogCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E57B662D2985953F00BA0C36 /* CatalogCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E5B7DF8E29868B0C00EBCBB2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E5B7DF8D29868B0C00EBCBB2 /* Podfile */; };
 		E5B7DF9029868B5500EBCBB2 /* CatalogDetail.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E5B7DF8F29868B5500EBCBB2 /* CatalogDetail.podspec */; };
-		E5B7DF9229868CE600EBCBB2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E5B7DF9129868CE600EBCBB2 /* LICENSE */; };
 		E5B919452978098500433AF7 /* CatalogDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B9193A2978098400433AF7 /* CatalogDetail.framework */; };
 		E5B9194A2978098500433AF7 /* CatalogDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B919492978098500433AF7 /* CatalogDetailTests.swift */; };
 		E5B9194B2978098500433AF7 /* CatalogDetail.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B9193D2978098400433AF7 /* CatalogDetail.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +57,7 @@
 		830F94E52ED61ADE38956784 /* Pods-CatalogDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatalogDetail.release.xcconfig"; path = "Target Support Files/Pods-CatalogDetail/Pods-CatalogDetail.release.xcconfig"; sourceTree = "<group>"; };
 		9982324975B407513B80C589 /* Pods-CatalogDetail-CatalogDetailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatalogDetail-CatalogDetailTests.debug.xcconfig"; path = "Target Support Files/Pods-CatalogDetail-CatalogDetailTests/Pods-CatalogDetail-CatalogDetailTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E19EA5793667DF340B327E0B /* Pods-CatalogDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatalogDetail.debug.xcconfig"; path = "Target Support Files/Pods-CatalogDetail/Pods-CatalogDetail.debug.xcconfig"; sourceTree = "<group>"; };
+		E528F299298F663C0072236B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E57B6626298594B800BA0C36 /* CatalogCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CatalogCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57B662D2985953F00BA0C36 /* CatalogCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CatalogCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57B66462985980700BA0C36 /* CatalogFavorite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CatalogFavorite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,7 +65,6 @@
 		E57BCDBF29856403000275E4 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		E5B7DF8D29868B0C00EBCBB2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E5B7DF8F29868B5500EBCBB2 /* CatalogDetail.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CatalogDetail.podspec; sourceTree = "<group>"; };
-		E5B7DF9129868CE600EBCBB2 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E5B9193A2978098400433AF7 /* CatalogDetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CatalogDetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B9193D2978098400433AF7 /* CatalogDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CatalogDetail.h; sourceTree = "<group>"; };
 		E5B919442978098500433AF7 /* CatalogDetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatalogDetailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +126,7 @@
 		E5B919302978098400433AF7 = {
 			isa = PBXGroup;
 			children = (
-				E5B7DF9129868CE600EBCBB2 /* LICENSE */,
+				E528F299298F663C0072236B /* LICENSE */,
 				E5B7DF8F29868B5500EBCBB2 /* CatalogDetail.podspec */,
 				E5B7DF8D29868B0C00EBCBB2 /* Podfile */,
 				E5B9193C2978098400433AF7 /* CatalogDetail */,
@@ -276,7 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B7DF9229868CE600EBCBB2 /* LICENSE in Resources */,
+				E528F29A298F663C0072236B /* LICENSE in Resources */,
 				E5B7DF8E29868B0C00EBCBB2 /* Podfile in Resources */,
 				E5B7DF9029868B5500EBCBB2 /* CatalogDetail.podspec in Resources */,
 			);
